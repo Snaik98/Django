@@ -1,0 +1,26 @@
+{% load static %}
+<html>
+    <head>
+        <title>FIRST APPLICATION INDEX</title>
+        <link rel="stylesheet" href="{% static 'CSS/style.css' %}">
+        <script src="{% static 'JS/script.js' %}"></script>
+    </head>
+
+    <body>
+        <h1>
+            Hi! Welcome to the innovation with python training.
+            
+        </h1>
+        <img src="{% static 'IMAGES/test_image.jpg' %}" 
+             alt="test_image"
+             width="400px"
+             height="auto">
+        <h2>
+            <button name ="Button" onclick="myFun()">SAY HI!!</button>
+        </h2>
+            
+        
+    </body>
+
+    
+</html>
